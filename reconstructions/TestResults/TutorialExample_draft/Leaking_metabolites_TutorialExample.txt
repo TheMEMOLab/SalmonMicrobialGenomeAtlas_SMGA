@@ -1,0 +1,3 @@
+Photobacterium_phosphoreum_S39_bc34	EX_h2o(e)	
+Pseudomonas_E_sp_S3_bc03	EX_h2o(e)	
+Serratia_liquefaciens_S38_bc38	EX_h2(e)	EX_h2o(e)

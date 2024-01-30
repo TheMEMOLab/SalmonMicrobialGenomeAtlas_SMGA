@@ -1,0 +1,212 @@
+MicrobeID	PubSeedID	x2_CompleteComparativeGenomics_1_CertainComparativeGeno	Strain	Species	Genus	Family	Order	Class	Phylum	NCBItaxID	AnnotationVersionID	Gram_Staining	PresentInAGORA2	Oxygen Requirement	Gram Staining
+Aliivibrio_sp_S50_bc45	N/A	NaN	Aliivibrio_sp_S50_bc45	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A31_bc75	N/A	NaN	Aliivibrio_sp_A31_bc75	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A16_bc60	N/A	NaN	Aliivibrio_sp_A16_bc60	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A10_bc56	N/A	NaN	Aliivibrio_sp_A10_bc56	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A13_bc59	N/A	NaN	Aliivibrio_sp_A13_bc59	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A20_bc64	N/A	NaN	Aliivibrio_sp_A20_bc64	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A26_bc70	N/A	NaN	Aliivibrio_sp_A26_bc70	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_salmonicida_A_A32_bc76	N/A	NaN	Aliivibrio_salmonicida_A_A32_bc76	salmonicida	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_salmonicida_A_A25_bc69	N/A	NaN	Aliivibrio_salmonicida_A_A25_bc69	salmonicida	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_salmonicida_A_NWS_MAG_00012	N/A	NaN	Aliivibrio_salmonicida_A_NWS_MAG_00012	salmonicida	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A24_bc68	N/A	NaN	Aliivibrio_sp_A24_bc68	NA	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A11_bc57	N/A	NaN	Aliivibrio_sp_A11_bc57	NA	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A23_bc67	N/A	NaN	Aliivibrio_sp_A23_bc67	NA	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A21_bc65	N/A	NaN	Aliivibrio_sp_A21_bc65	NA	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A37_bc81	N/A	NaN	Aliivibrio_sp_A37_bc81	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A2_bc49	N/A	NaN	Aliivibrio_sp_A2_bc49	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_sp_A17_bc61	N/A	NaN	Aliivibrio_sp_A17_bc61	sp	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_finisterrensis_MAG_02	N/A	NaN	Aliivibrio_finisterrensis_MAG_02	finisterrensis	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Aliivibrio_finisterrensis_MAG_01	N/A	NaN	Aliivibrio_finisterrensis_MAG_01	finisterrensis	Aliivibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Vibrio_splendidus_S52_bc47	N/A	NaN	Vibrio_splendidus_S52_bc47	splendidus	Vibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Vibrio_splendidus_S51_bc46	N/A	NaN	Vibrio_splendidus_S51_bc46	splendidus	Vibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Vibrio_splendidus_S43_bc38	N/A	NaN	Vibrio_splendidus_S43_bc38	splendidus	Vibrio	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Photobacterium_phosphoreum_S48_bc43	N/A	NaN	Photobacterium_phosphoreum_S48_bc43	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_A38_bc82	N/A	NaN	Photobacterium_phosphoreum_A38_bc82	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_S49_bc44	N/A	NaN	Photobacterium_phosphoreum_S49_bc44	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_A12_bc58	N/A	NaN	Photobacterium_phosphoreum_A12_bc58	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_S22_bc18	N/A	NaN	Photobacterium_phosphoreum_S22_bc18	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_S17_bc13	N/A	NaN	Photobacterium_phosphoreum_S17_bc13	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_S39_bc34	N/A	NaN	Photobacterium_phosphoreum_S39_bc34	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_S19_bc15	N/A	NaN	Photobacterium_phosphoreum_S19_bc15	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_S20_bc16	N/A	NaN	Photobacterium_phosphoreum_S20_bc16	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_MAG_02	N/A	NaN	Photobacterium_phosphoreum_MAG_02	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_MAG_01	N/A	NaN	Photobacterium_phosphoreum_MAG_01	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_phosphoreum_MAG_03	N/A	NaN	Photobacterium_phosphoreum_MAG_03	phosphoreum	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Photobacterium_sp_A22_bc66	N/A	NaN	Photobacterium_sp_A22_bc66	NA	Photobacterium	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Anaerobe	Gram-
+Vibrionaceae_NWS_MAG_00017	N/A	NaN	Vibrionaceae_NWS_MAG_00017	NA	Enterobacterales	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S20_bc20	N/A	NaN	Lelliottia_amnigena_S20_bc20	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S10_bc10	N/A	NaN	Lelliottia_amnigena_S10_bc10	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S31_bc31	N/A	NaN	Lelliottia_amnigena_S31_bc31	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S30_bc30	N/A	NaN	Lelliottia_amnigena_S30_bc30	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S28_bc28	N/A	NaN	Lelliottia_amnigena_S28_bc28	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S4_bc4	N/A	NaN	Lelliottia_amnigena_S4_bc4	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S3_bc3	N/A	NaN	Lelliottia_amnigena_S3_bc3	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S43_bc43	N/A	NaN	Lelliottia_amnigena_S43_bc43	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S32_bc32	N/A	NaN	Lelliottia_amnigena_S32_bc32	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S47_bc47	N/A	NaN	Lelliottia_amnigena_S47_bc47	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S34_bc34	N/A	NaN	Lelliottia_amnigena_S34_bc34	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S22_bc22	N/A	NaN	Lelliottia_amnigena_S22_bc22	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S18_bc18	N/A	NaN	Lelliottia_amnigena_S18_bc18	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S37_bc37	N/A	NaN	Lelliottia_amnigena_S37_bc37	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S13_bc13	N/A	NaN	Lelliottia_amnigena_S13_bc13	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Lelliottia_amnigena_S16_bc16	N/A	NaN	Lelliottia_amnigena_S16_bc16	amnigena	Lelliottia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Serratia_liquefaciens_S45_bc45	N/A	NaN	Serratia_liquefaciens_S45_bc45	liquefaciens	Serratia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Serratia_liquefaciens_S38_bc38	N/A	NaN	Serratia_liquefaciens_S38_bc38	liquefaciens	Serratia	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S24_bc24	N/A	NaN	Aeromonas_bestiarum_S24_bc24	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S23_bc23	N/A	NaN	Aeromonas_bestiarum_S23_bc23	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S12_bc12	N/A	NaN	Aeromonas_bestiarum_S12_bc12	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S14_bc14	N/A	NaN	Aeromonas_bestiarum_S14_bc14	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S9_bc9	N/A	NaN	Aeromonas_bestiarum_S9_bc9	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S6_bc6	N/A	NaN	Aeromonas_bestiarum_S6_bc6	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S19_bc19	N/A	NaN	Aeromonas_bestiarum_S19_bc19	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S25_bc25	N/A	NaN	Aeromonas_bestiarum_S25_bc25	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S27_bc27	N/A	NaN	Aeromonas_bestiarum_S27_bc27	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Aeromonas_bestiarum_S11_bc11	N/A	NaN	Aeromonas_bestiarum_S11_bc11	bestiarum	Aeromonas	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative anaerobe	Gram-
+Shewanella_baltica_S30_bc25	N/A	NaN	Shewanella_baltica_S30_bc25	baltica	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_baltica_S14_bc11	N/A	NaN	Shewanella_baltica_S14_bc11	baltica	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_baltica_S32_bc27	N/A	NaN	Shewanella_baltica_S32_bc27	baltica	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_baltica_S5_bc05	N/A	NaN	Shewanella_baltica_S5_bc05	baltica	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_baltica_S15_bc12	N/A	NaN	Shewanella_baltica_S15_bc12	baltica	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_baltica_A7_bc53	N/A	NaN	Shewanella_baltica_A7_bc53	baltica	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_baltica_S4_bc04	N/A	NaN	Shewanella_baltica_S4_bc04	baltica	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_sp_S8_bc8	N/A	NaN	Shewanella_sp_S8_bc8	sp	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_sp_S7_bc7	N/A	NaN	Shewanella_sp_S7_bc7	sp	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_hanedai_NWS_MAG_00004	N/A	NaN	Shewanella_hanedai_NWS_MAG_00004	hanedai	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_sp_A9_bc55	N/A	NaN	Shewanella_sp_A9_bc55	NA	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Shewanella_sp_NWS_MAG_00001	N/A	NaN	Shewanella_sp_NWS_MAG_00001	NA	Shewanella	NaN	Enterobacterales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Facultative	Gram-
+Pseudomonas_E_sp_S3_bc03	N/A	NaN	Pseudomonas_E_sp_S3_bc03	sp	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_sp_S36_bc31	N/A	NaN	Pseudomonas_E_sp_S36_bc31	sp	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_sp_S8_bc07	N/A	NaN	Pseudomonas_E_sp_S8_bc07	sp	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_iridis_S37_bc32	N/A	NaN	Pseudomonas_E_iridis_S37_bc32	iridis	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_iridis_S35_bc30	N/A	NaN	Pseudomonas_E_iridis_S35_bc30	iridis	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_iridis_S13_bc10	N/A	NaN	Pseudomonas_E_iridis_S13_bc10	iridis	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_yamanorum_MAG_02	N/A	NaN	Pseudomonas_E_yamanorum_MAG_02	yamanorum	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_yamanorum_MAG_01	N/A	NaN	Pseudomonas_E_yamanorum_MAG_01	yamanorum	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_qingdaonensis_S5_bc5	N/A	NaN	Pseudomonas_E_qingdaonensis_S5_bc5	qingdaonensis	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_E_qingdaonensis_S29_bc29	N/A	NaN	Pseudomonas_E_qingdaonensis_S29_bc29	qingdaonensis	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Pseudomonas_A_stutzeri_MAG_01	N/A	NaN	Pseudomonas_A_stutzeri_MAG_01	stutzeri	Pseudomonas	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Oleispira_sp_MAG_04	N/A	NaN	Oleispira_sp_MAG_04	NA	Oleispira	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Oleispira_sp_MAG_03	N/A	NaN	Oleispira_sp_MAG_03	NA	Oleispira	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Oleispira_sp_MAG_01	N/A	NaN	Oleispira_sp_MAG_01	NA	Oleispira	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Oleispira_sp_MAG_02	N/A	NaN	Oleispira_sp_MAG_02	NA	Oleispira	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_S23_bc19	N/A	NaN	Psychrobacter_sp_S23_bc19	NA	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_A1_bc48	N/A	NaN	Psychrobacter_sp_A1_bc48	NA	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_A36_bc80	N/A	NaN	Psychrobacter_sp_A36_bc80	NA	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_A19_bc63	N/A	NaN	Psychrobacter_sp_A19_bc63	NA	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_S40_bc35	N/A	NaN	Psychrobacter_sp_S40_bc35	NA	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_S18_bc14	N/A	NaN	Psychrobacter_sp_S18_bc14	NA	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_glaciei_A27_bc71	N/A	NaN	Psychrobacter_glaciei_A27_bc71	glaciei	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_glaciei_A18_bc62	N/A	NaN	Psychrobacter_glaciei_A18_bc62	glaciei	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_glaciei_S2_bc02	N/A	NaN	Psychrobacter_glaciei_S2_bc02	glaciei	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_glaciei_S31_bc26	N/A	NaN	Psychrobacter_glaciei_S31_bc26	glaciei	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_glaciei_S33_bc28	N/A	NaN	Psychrobacter_glaciei_S33_bc28	glaciei	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_cryohalolentis_S28_bc23	N/A	NaN	Psychrobacter_cryohalolentis_S28_bc23	cryohalolentis	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_cryohalolentis_S24_bc20	N/A	NaN	Psychrobacter_cryohalolentis_S24_bc20	cryohalolentis	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_S7_bc06	N/A	NaN	Psychrobacter_sp_S7_bc06	NA	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_S38_bc33	N/A	NaN	Psychrobacter_sp_S38_bc33	sp	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Psychrobacter_sp_S10_bc08	N/A	NaN	Psychrobacter_sp_S10_bc08	NA	Psychrobacter	NaN	Pseudomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Paraburkholderia_fungorum_MAG_02	N/A	NaN	Paraburkholderia_fungorum_MAG_02	fungorum	Paraburkholderia	NaN	Burkholderiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Paraburkholderia_fungorum_MAG_05	N/A	NaN	Paraburkholderia_fungorum_MAG_05	fungorum	Paraburkholderia	NaN	Burkholderiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Paraburkholderia_fungorum_MAG_07	N/A	NaN	Paraburkholderia_fungorum_MAG_07	fungorum	Paraburkholderia	NaN	Burkholderiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Paraburkholderia_fungorum_MAG_04	N/A	NaN	Paraburkholderia_fungorum_MAG_04	fungorum	Paraburkholderia	NaN	Burkholderiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Paraburkholderia_fungorum_MAG_01	N/A	NaN	Paraburkholderia_fungorum_MAG_01	fungorum	Paraburkholderia	NaN	Burkholderiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Paraburkholderia_fungorum_MAG_03	N/A	NaN	Paraburkholderia_fungorum_MAG_03	fungorum	Paraburkholderia	NaN	Burkholderiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Paraburkholderia_fungorum_MAG_06	N/A	NaN	Paraburkholderia_fungorum_MAG_06	fungorum	Paraburkholderia	NaN	Burkholderiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	0	Gram-
+Ochrobactrum_A_rhizosphaerae_MAG_03	N/A	NaN	Ochrobactrum_A_rhizosphaerae_MAG_03	rhizosphaerae	Ochrobactrum	NaN	Rhizobiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Ochrobactrum_A_rhizosphaerae_MAG_02	N/A	NaN	Ochrobactrum_A_rhizosphaerae_MAG_02	rhizosphaerae	Ochrobactrum	NaN	Rhizobiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Ochrobactrum_A_rhizosphaerae_MAG_01	N/A	NaN	Ochrobactrum_A_rhizosphaerae_MAG_01	rhizosphaerae	Ochrobactrum	NaN	Rhizobiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Phyllobacterium_sp_MAG_01	N/A	NaN	Phyllobacterium_sp_MAG_01	sp	Phyllobacterium	NaN	Rhizobiales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Aerobe	Gram-
+Sphingomonas_sp_MAG_01	N/A	NaN	Sphingomonas_sp_MAG_01	NA	Sphingomonas	NaN	Sphingomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Obligate aerobe	Gram-
+Sphingomonas_sp_MAG_02	N/A	NaN	Sphingomonas_sp_MAG_02	NA	Sphingomonas	NaN	Sphingomonadales	NaN	Proteobacteria	NaN	NaN	Gram-	No	Obligate aerobe	Gram-
+Flavobacterium_frigidarium_S25_bc21	N/A	NaN	Flavobacterium_frigidarium_S25_bc21	frigidarium	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Flavobacterium_frigidarium_S12_bc09	N/A	NaN	Flavobacterium_frigidarium_S12_bc09	frigidarium	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Flavobacterium_frigidarium_A3_bc50	N/A	NaN	Flavobacterium_frigidarium_A3_bc50	frigidarium	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Flavobacterium_frigidarium_A4_bc51	N/A	NaN	Flavobacterium_frigidarium_A4_bc51	frigidarium	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Flavobacterium_frigidarium_S26_bc22	N/A	NaN	Flavobacterium_frigidarium_S26_bc22	frigidarium	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Flavobacterium_frigidarium_A8_bc54	N/A	NaN	Flavobacterium_frigidarium_A8_bc54	frigidarium	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Flavobacterium_sp_S1_bc01	N/A	NaN	Flavobacterium_sp_S1_bc01	NA	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Flavobacterium_sp_A33_bc77	N/A	NaN	Flavobacterium_sp_A33_bc77	NA	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Flavobacterium_sp_S21_bc17	N/A	NaN	Flavobacterium_sp_S21_bc17	NA	Flavobacterium	NaN	Flavobacteriales	NaN	Bacteroidota	NaN	NaN	Gram-	No	Aerobe	Gram-
+Brevinemataceae_MAG_02	N/A	NaN	Brevinemataceae_MAG_02	NA	Brevinematales	NaN	Brevinematales	NaN	Spirochaetota	NaN	NaN	Gram-	No	NaN	
+Brevinemataceae_MAG_01	N/A	NaN	Brevinemataceae_MAG_01	NA	Brevinematales	NaN	Brevinematales	NaN	Spirochaetota	NaN	NaN	Gram-	No	NaN	
+Brevinema_sp_MAG_01	N/A	NaN	Brevinema_sp_MAG_01	NA	Brevinema	NaN	Brevinematales	NaN	Spirochaetota	NaN	NaN	Gram-	No	NaN	
+Brevinema_sp_NWS_MAG_00002	N/A	NaN	Brevinema_sp_NWS_MAG_00002	NA	Brevinema	NaN	Brevinematales	NaN	Spirochaetota	NaN	NaN	Gram-	No	NaN	
+Brevinema_sp_NWS_MAG_00003	N/A	NaN	Brevinema_sp_NWS_MAG_00003	NA	Brevinema	NaN	Brevinematales	NaN	Spirochaetota	NaN	NaN	Gram-	No	NaN	
+Latilactobacillus_curvatus_ELA204096	N/A	NaN	Latilactobacillus_curvatus_ELA204096	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA204023	N/A	NaN	Latilactobacillus_curvatus_ELA204023	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA204092	N/A	NaN	Latilactobacillus_curvatus_ELA204092	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA204093	N/A	NaN	Latilactobacillus_curvatus_ELA204093	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA204033	N/A	NaN	Latilactobacillus_curvatus_ELA204033	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA214388	N/A	NaN	Latilactobacillus_curvatus_ELA214388	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA214117	N/A	NaN	Latilactobacillus_curvatus_ELA214117	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA214062	N/A	NaN	Latilactobacillus_curvatus_ELA214062	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA214061	N/A	NaN	Latilactobacillus_curvatus_ELA214061	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA214060	N/A	NaN	Latilactobacillus_curvatus_ELA214060	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA214059	N/A	NaN	Latilactobacillus_curvatus_ELA214059	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA204100	N/A	NaN	Latilactobacillus_curvatus_ELA204100	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA204029	N/A	NaN	Latilactobacillus_curvatus_ELA204029	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA214002	N/A	NaN	Latilactobacillus_curvatus_ELA214002	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_curvatus_ELA204098	N/A	NaN	Latilactobacillus_curvatus_ELA204098	curvatus	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_sakei_ELA214391	N/A	NaN	Latilactobacillus_sakei_ELA214391	sakei	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_sakei_ELA214065	N/A	NaN	Latilactobacillus_sakei_ELA214065	sakei	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_sakei_ELA214064	N/A	NaN	Latilactobacillus_sakei_ELA214064	sakei	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Latilactobacillus_fuchuensis_ELA214068	N/A	NaN	Latilactobacillus_fuchuensis_ELA214068	fuchuensis	Latilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Limosilactobacillus_vaginalis_MAG_01	N/A	NaN	Limosilactobacillus_vaginalis_MAG_01	vaginalis	Limosilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Limosilactobacillus_vaginalis_MAG_02	N/A	NaN	Limosilactobacillus_vaginalis_MAG_02	vaginalis	Limosilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Limosilactobacillus_frumenti_MAG_01	N/A	NaN	Limosilactobacillus_frumenti_MAG_01	frumenti	Limosilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Limosilactobacillus_mucosae_MAG_02	N/A	NaN	Limosilactobacillus_mucosae_MAG_02	mucosae	Limosilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Limosilactobacillus_mucosae_MAG_01	N/A	NaN	Limosilactobacillus_mucosae_MAG_01	mucosae	Limosilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Limosilactobacillus_ingluviei_MAG_01	N/A	NaN	Limosilactobacillus_ingluviei_MAG_01	ingluviei	Limosilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Limosilactobacillus_ingluviei_MAG_02	N/A	NaN	Limosilactobacillus_ingluviei_MAG_02	ingluviei	Limosilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram+
+Weissella_confusa_MAG_01	N/A	NaN	Weissella_confusa_MAG_01	confusa	Weissella	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerotolerant	Gram+
+Ligilactobacillus_salivarius_MAG_01	N/A	NaN	Ligilactobacillus_salivarius_MAG_01	salivarius	Ligilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Microaerophile	Gram+
+Ligilactobacillus_salivarius_MAG_02	N/A	NaN	Ligilactobacillus_salivarius_MAG_02	salivarius	Ligilactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Microaerophile	Gram+
+Lactobacillus_johnsonii_MAG_01	N/A	NaN	Lactobacillus_johnsonii_MAG_01	johnsonii	Lactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Microaerophile	Gram+
+Lactobacillus_kitasatonis_MAG_01	N/A	NaN	Lactobacillus_kitasatonis_MAG_01	kitasatonis	Lactobacillus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Microaerophile	Gram+
+Streptococcus_criceti_MAG_01	N/A	NaN	Streptococcus_criceti_MAG_01	criceti	Streptococcus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Streptococcus_criceti_MAG_02	N/A	NaN	Streptococcus_criceti_MAG_02	criceti	Streptococcus	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_A42_bc86	N/A	NaN	Carnobacterium_maltaromaticum_A42_bc86	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_A41_bc85	N/A	NaN	Carnobacterium_maltaromaticum_A41_bc85	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_S42_bc37	N/A	NaN	Carnobacterium_maltaromaticum_S42_bc37	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_S41_bc36	N/A	NaN	Carnobacterium_maltaromaticum_S41_bc36	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_A35_bc79	N/A	NaN	Carnobacterium_maltaromaticum_A35_bc79	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_S47_bc42	N/A	NaN	Carnobacterium_maltaromaticum_S47_bc42	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_A40_bc84	N/A	NaN	Carnobacterium_maltaromaticum_A40_bc84	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_S44_bc39	N/A	NaN	Carnobacterium_maltaromaticum_S44_bc39	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_A39_bc83	N/A	NaN	Carnobacterium_maltaromaticum_A39_bc83	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Carnobacterium_maltaromaticum_S39_bc39	N/A	NaN	Carnobacterium_maltaromaticum_S39_bc39	maltaromaticum	Carnobacterium	NaN	Lactobacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Parageobacillus_toebii_MAG_03	N/A	NaN	Parageobacillus_toebii_MAG_03	toebii	Parageobacillus	NaN	Bacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Obligate anaerobe	Gram+
+Parageobacillus_toebii_MAG_02	N/A	NaN	Parageobacillus_toebii_MAG_02	toebii	Parageobacillus	NaN	Bacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Obligate anaerobe	Gram+
+Parageobacillus_toebii_MAG_01	N/A	NaN	Parageobacillus_toebii_MAG_01	toebii	Parageobacillus	NaN	Bacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Obligate anaerobe	Gram+
+Sporosarcina_sp_MAG_01	N/A	NaN	Sporosarcina_sp_MAG_01	NA	Sporosarcina	NaN	Bacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Obligate anaerobe	Gram+
+Sporosarcina_sp_MAG_02	N/A	NaN	Sporosarcina_sp_MAG_02	NA	Sporosarcina	NaN	Bacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Obligate anaerobe	Gram+
+Pseudogracilibacillus_sp_MAG_01	N/A	NaN	Pseudogracilibacillus_sp_MAG_01	sp	Pseudogracilibacillus	NaN	Bacillales	NaN	Firmicutes	NaN	NaN	Gram+	No	Obligate anaerobe	Gram+
+Mycoplasmoidaceae_MAG_06	N/A	NaN	Mycoplasmoidaceae_MAG_06	NA	Mycoplasmatales	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasmoidaceae_MAG_05	N/A	NaN	Mycoplasmoidaceae_MAG_05	NA	Mycoplasmatales	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasmoidaceae_MAG_02	N/A	NaN	Mycoplasmoidaceae_MAG_02	NA	Mycoplasmatales	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasmoidaceae_MAG_04	N/A	NaN	Mycoplasmoidaceae_MAG_04	NA	Mycoplasmatales	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasmoidaceae_MAG_03	N/A	NaN	Mycoplasmoidaceae_MAG_03	NA	Mycoplasmatales	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasmoidaceae_MAG_01	N/A	NaN	Mycoplasmoidaceae_MAG_01	NA	Mycoplasmatales	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasma_L_sp_MAG_03	N/A	NaN	Mycoplasma_L_sp_MAG_03	NA	Mycoplasma	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasma_L_sp_MAG_02	N/A	NaN	Mycoplasma_L_sp_MAG_02	NA	Mycoplasma	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasma_L_sp_MAG_01	N/A	NaN	Mycoplasma_L_sp_MAG_01	NA	Mycoplasma	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasma_L_sp_NWS_MAG_00007	N/A	NaN	Mycoplasma_L_sp_NWS_MAG_00007	NA	Mycoplasma	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Metamycoplasmataceae_NWS_MAG_00010	N/A	NaN	Metamycoplasmataceae_NWS_MAG_00010	NA	UBA710	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Mycoplasmatales_NWS_MAG_00008	N/A	NaN	Mycoplasmatales_NWS_MAG_00008	NA	Mycoplasmatales	NaN	Mycoplasmatales	NaN	Firmicutes	NaN	NaN	Gram+	No	Aerobe	Gram-
+Tepidimicrobiaceae_MAG_04	N/A	NaN	Tepidimicrobiaceae_MAG_04	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_03	N/A	NaN	Tepidimicrobiaceae_MAG_03	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_05	N/A	NaN	Tepidimicrobiaceae_MAG_05	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_09	N/A	NaN	Tepidimicrobiaceae_MAG_09	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_08	N/A	NaN	Tepidimicrobiaceae_MAG_08	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_07	N/A	NaN	Tepidimicrobiaceae_MAG_07	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_06	N/A	NaN	Tepidimicrobiaceae_MAG_06	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_02	N/A	NaN	Tepidimicrobiaceae_MAG_02	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_01	N/A	NaN	Tepidimicrobiaceae_MAG_01	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_11	N/A	NaN	Tepidimicrobiaceae_MAG_11	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_10	N/A	NaN	Tepidimicrobiaceae_MAG_10	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Tepidimicrobiaceae_MAG_12	N/A	NaN	Tepidimicrobiaceae_MAG_12	NA	JAAYHX01	NaN	Tissierellales	NaN	Firmicutes	NaN	NaN	Gram+	No	Anaerobe	Gram+
+Peptostreptococcaceae_MAG_01	N/A	NaN	Peptostreptococcaceae_MAG_01	NA	Peptostreptococcales	NaN	Peptostreptococcales	NaN	Firmicutes	NaN	NaN	Gram+	No	Facultative anaerobe	Gram+
+Cetobacterium_A_sp_NWS_MAG_00009	N/A	NaN	Cetobacterium_A_sp_NWS_MAG_00009	NA	Cetobacterium	NaN	Fusobacteriales	NaN	Fusobacteriota	NaN	NaN	Gram-	No	0	Gram-
+Glutamicibacter_sp_S1_bc1	N/A	NaN	Glutamicibacter_sp_S1_bc1	sp	Glutamicibacter	NaN	Actinomycetales	NaN	Actinobacteriota	NaN	NaN	Gram-	No	Facultative anaerobe	Gram+
+Glutamicibacter_sp_S15_bc15	N/A	NaN	Glutamicibacter_sp_S15_bc15	sp	Glutamicibacter	NaN	Actinomycetales	NaN	Actinobacteriota	NaN	NaN	Gram-	No	Facultative anaerobe	Gram+
