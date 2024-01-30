@@ -1,0 +1,4 @@
+Photobacterium_phosphoreum_S39_bc34	Futile cycle correction	To replace	
+Pseudomonas_E_sp_S3_bc03	Futile cycle correction	To replace	
+Serratia_liquefaciens_S38_bc38	Futile cycle correction	To replace	URAt2rpp
+Serratia_liquefaciens_S38_bc38	uracil	Condition-specific gapfilling	URAt2r_csGF
