@@ -1,0 +1,356 @@
+---
+title: "Phylogenetic tree Species Genomes"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+
+Libraries:
+
+```{r}
+library(tidyverse)
+library(pheatmap)
+library(ggtree)
+library(tidytree)
+library(ggtreeExtra)
+library(ape)
+library(ggplot2)
+library(aplot)
+library(ggstar)
+library(Polychrome)
+```
+
+Loading the unrooted tree:
+
+```{r}
+Tree <- treeio::read.iqtree("gtdbtk.bac120.user_msa.fasta.gz.treefile")
+```
+
+Rooting tree:
+
+```{r}
+RotedTree <- root(Tree,"Prochlorococcus_marinus")
+
+
+GG <- ggtree(RotedTree, layout = "fan")
+```
+
+Gather Taxonomy information
+
+```{r}
+#SMGA
+load("GenoMetadata.RData")
+
+```
+
+Load ANI
+
+```{r}
+ANI <- read_tsv("gtdbtk.ani_summary.tsv")
+```
+
+Extract Taxonomy of the Public genomes:
+
+```{r}
+PublicGenomes <- ANI %>%
+  select(reference_genome,reference_taxonomy) %>%
+  rename("Genome"=reference_genome) %>%
+  rename("classification"=reference_taxonomy) %>%
+  distinct() %>%
+  separate(classification,sep=";",
+           into=c("D",
+                  "P",
+                  "C",
+                  "O",
+                  "F",
+                  "G",
+                  "S"),
+           remove = FALSE) %>%
+  mutate_at(.vars=vars(S),
+            .funs = ~
+              str_remove(.,
+                          pattern = ".*[[:space:]]")) %>%
+  mutate_at(.vars=vars(S),
+            .funs = ~
+              str_remove(.,
+                         pattern = "(?<=sp)\\d.*")) %>%
+  mutate_at(.vars = vars(D),
+            .funs = ~
+              str_remove_all(.,
+                             pattern = ".*d__")) %>%
+  mutate_at(.vars = vars(P),
+            .funs = ~
+              str_remove_all(.,
+                          pattern = ".*p__")) %>%
+  mutate_at(.vars = vars(C),
+            .funs = ~
+              str_remove_all(.,
+                             pattern = ".*c__")) %>%
+  mutate_at(.vars = vars(O),
+            .funs = ~
+              str_remove_all(.,
+                          pattern = ".*o__")) %>%
+  mutate_at(.vars = vars(F),
+            .funs = ~
+              str_remove_all(.,
+                             pattern = ".*f__")) %>%
+  mutate_at(.vars = vars(G),
+            .funs = ~
+              str_remove_all(.,
+                          pattern = ".*g__")) %>%
+  mutate_at(.vars = vars(S),
+            .funs = ~
+              str_remove_all(.,
+                          pattern = ".*s__")) %>%
+  mutate_at(.vars = vars(P,O,F,G,S),
+            .funs = ~
+              str_remove_all(.,
+                             pattern = "_..*")) %>%
+  mutate_at(.vars = vars(P,O,G,S),
+            .funs = ~
+              str_replace(.,
+                          pattern = "^$",
+                          replacement = ";")) %>%
+  select(-c(D,C,F)) %>%
+  unite("classification",P:O:G:S,sep = "_") %>%
+  mutate_at(.vars = vars(classification),
+            .funs = ~
+              str_replace(.,
+                          pattern = "_;.*",
+                          replacement = ""))%>%
+  separate(classification,sep = "_",
+           remove = FALSE,
+           into = c("Phylum","Order","Genus","Species")) %>%
+  mutate(Genus=coalesce(Genus,Order))
+```
+
+As Public genomes have different names lets modify this to match with the info in the tree
+
+  -Extract names:
+  
+```{r}
+PublicGenomesMOD <- GG$data %>%
+  select(label) %>%
+  filter(str_detect(label, 
+                    paste(c("^GCF","^GCA"),
+                          collapse = "|"))) %>%
+  separate(label,into = c("a","b"),
+           sep="_",remove = F) %>%
+  unite("Genome",a:b,sep="_") %>%
+  left_join(PublicGenomes,by="Genome") %>%
+  select(-Genome) %>%
+  dplyr::rename("Genome"=label)
+  
+```
+
+
+Joint SMGA + Public
+
+```{r}
+GenoOrder <- GenoMetadata %>%
+  select(Genome,Order) %>%
+    bind_rows(PublicGenomesMOD %>% 
+                select(Genome,Order)) %>%
+  mutate(Env=if_else(grepl("^GCF",Genome),
+                     "NonSMGA",
+                     if_else(grepl("^GCA",Genome),"NonSMGA",
+                     "SMGA")))
+```
+
+Add this info to the GGTree object
+
+```{r}
+GG2 <- GG %<+% GenoOrder
+```
+
+Test Phylogeny:
+
+```{r}
+TOTO <- GG2+
+  geom_fruit(geom=geom_star,
+             offset=0.07,
+             mapping = aes(y=Env,
+                           fill=Env,
+                           starshape=Env),size=2)
+TOTO
+```
+
+```{r}
+Gato <- TOTO$data
+```
+
+Replicate the tree as in the Submitted paper:
+
+We have all the GenoMetadata so started after this:
+
+Create a list for color clades in the tree using the watersource 
+
+```{r}
+SWFW <- GenoMetadata %>%
+  group_by(WaterSource) %>%
+  summarise(across(,list)) %>%
+  select(WaterSource,Genome)
+
+SWFWlist <- map(SWFW$Genome, function(x){
+  unlist(strsplit(x,split=","))
+  })
+
+names(SWFWlist) <- SWFW$WaterSource
+```
+
+Use the colors for the branches SWFWlist
+
+```{R}
+GG <- groupOTU(RotedTree, SWFWlist, "WaterSource")
+
+```
+
+Create a complete metadata 
+```{r}
+GenoMetaDataPublic <- GenoMetadata %>%
+    bind_rows(PublicGenomesMOD) %>%
+  mutate(Env=if_else(grepl("^GCF",Genome),
+                     "NonSMGA",
+                     if_else(grepl("^GCA",Genome),"NonSMGA",
+                     "SMGA")))
+GenoMetadataFT <- GenoMetaDataPublic %>%
+  select(!WaterSource)
+```
+
+Plot the phylogeny
+
+```{r}
+#function to extract colors form ggplot2
+gg_color_hue <- function(n) {
+  hues = seq(15, 375, length = n + 1)
+  hcl(h = hues, l = 65, c = 100)[1:n]
+}
+```
+
+Use the Order from GTDBTK classification to add a layer of the outside of the Tree
+
+```{r}
+
+colorheat <- alphabet.colors(length(unique(GenoMetadataFT$Order)))
+heatmap.colors <- as.character(colorheat)
+names(heatmap.colors) <- sort(unique(GenoMetadataFT$Order))
+```
+
+Plot the tree w/out names:
+
+```{r}
+GGT <- ggtree(GG,aes(color=WaterSource),
+               layout = "fan",
+               open.angle=12,
+              size=1)+
+  geom_treescale(offset = 1.5)+
+  scale_colour_manual(name="WaterSource",
+                      values=c("black",
+                               "#06b0f6",
+                               "#342ff3"))
+
+GGT <- GGT %<+% GenoMetadataFT+
+  geom_nodepoint(aes(subset = UFboot > 70),
+                 color="Gray",
+                 show.legend=F,
+                 size=1)
+
+GGT
+```
+
+```{r}
+GGTFinal <- GGT +
+  ggnewscale::new_scale_colour() +
+  ggnewscale::new_scale_fill()+
+  geom_tippoint(aes(shape=GenomeSource,
+                    color=GenomeSource,
+                    fill=GenomeSource),
+                size=2,
+                show.legend = T)+
+  scale_fill_manual(name="GenomeSource",
+                      values=c(gg_color_hue(4)[c(2,4)]))+
+  scale_color_manual(values=c(gg_color_hue(4)[c(2,4)]),
+                     rgb(0,0,0,alpha = 0),
+                     guide = "none")+
+  scale_shape_manual(values=c(21,21))+
+  ggnewscale::new_scale_colour() +
+  ggnewscale::new_scale_fill()+
+  geom_fruit(
+    geom=geom_tile,
+    mapping=aes(fill=Order),
+    width=0.1,
+    color="white",
+    offset=0.05)+
+  scale_fill_manual(breaks =as.factor(na.omit(unique(GGT$data$Order))),
+                    values = heatmap.colors,
+                    name="Taxonomy_Order") + 
+  ggnewscale::new_scale_fill()+
+  geom_fruit(geom=geom_star,
+             offset=0.07,
+             mapping = aes(y=SpeciesStatus, 
+                           fill=SpeciesStatus,
+                           starshape=SpeciesStatus,
+                           color=SpeciesStatus),
+             size=1.5)+
+  scale_fill_manual(values="#BEAED4",
+                    na.translate=FALSE)+
+  scale_color_manual(values="#BEAED4",
+                     rgb(0,0,0,alpha = 0),
+                     guide="none")+
+  ggnewscale::new_scale_color()+
+  ggnewscale::new_scale_fill()+
+  geom_fruit(geom=geom_star,
+             offset = 0.1,
+             mapping = aes(y=rRNA16S,
+                           fill=rRNA16S,
+                           starshape=rRNA16S,
+                           color=rRNA16S),
+             size=1.5) +
+  scale_fill_manual(values=c("#E41A1C","#377EB8"))+
+  scale_color_manual(values=c("#E41A1C","#377EB8"),
+                     rgb(0,0,0,alpha = 0),
+                     guide = "none")+
+  ggnewscale::new_scale_colour() +
+  ggnewscale::new_scale_fill()+
+  geom_fruit(geom=geom_star,
+             offset=0.07,
+             mapping = aes(y=Env,
+                           fill=Env,
+                           color=Env,
+                           starshape=Env),size=2)+
+  scale_fill_manual(values=c("black",
+                             "gray"),
+                    na.translate=FALSE)+
+    scale_color_manual(values=c("black","gray"),
+                       rgb(0,0,0,alpha = 0),
+                       guide = "none") +
+    scale_starshape_manual(values=c(1,11,29,29,23),
+                           guide = "none")
+
+GGTFinal
+```
+
+Adding Genus names to the tip for manual curation
+
+```{r}
+GGTFinalNames <- GGTFinal +
+  geom_tiplab(aes(label=Genus),
+              offset = 1)
+GGTFinalNames
+
+
+```
+
+Saving as PDF
+
+```{r}
+ggsave(GGTFinalNames,
+       file="GGTree.FinalNames.IQTREE.pdf",
+       width = 20,
+       height = 20,
+       limitsize = FALSE)
+ggsave(GGTFinal,
+       file="GGTree.Final.No.Names.IQTREE.pdf",
+       width = 15,
+       height = 15)
+```
