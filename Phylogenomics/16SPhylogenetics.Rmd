@@ -1,0 +1,271 @@
+---
+title: "16S phylogeny"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+
+Libraries:
+
+```{r}
+
+library(tidyverse)
+library(pheatmap)
+library(ggtree)
+library(tidytree)
+library(ggtreeExtra)
+library(ape)
+library(ggplot2)
+library(aplot)
+library(ggstar)
+library(Polychrome)
+
+```
+
+
+Let's start with the metadata of the isolates:
+
+```{r}
+header <- read_tsv("header.silva.metadata.tsv")
+
+colnames(header)
+
+silvablastmetadata <- read_tsv("silva.smga.blasthits.metadata",
+                               col_names = colnames(header)) %>%
+  select(acc,isolation_source) %>%
+  distinct()
+
+
+```
+
+
+Taxonomy of silva hits:
+
+```{r}
+silvaTax <- read_tsv("silva.smga.blasthits.taxa.tab",
+                     col_names = c("id","Classification"))
+
+silvaTax <- silvaTax %>%
+  separate(id,sep="\\.",
+           into="acc",
+           remove = F)
+```
+
+Join the taxonomy + metadata
+
+```{r}
+
+silvaTaxMetadata <- silvablastmetadata %>%
+  left_join(silvaTax,by="acc")
+
+```
+
+
+Get the isolaion source
+
+```{r}
+IsolSource <- silvaTaxMetadata %>%
+  select(isolation_source) %>%
+  distinct() %>%
+  filter(!is.na(.))
+
+write_tsv(IsolSource, "IsolationSource.tsv")
+```
+
+Modified in excel :-(
+
+```{r}
+
+IsolSourceMod <- read_tsv("IsolationSource.tsv")
+
+```
+
+add to the silvaTaxMetadata
+
+```{r}
+
+silvaTaxMetadata <- silvaTaxMetadata %>%
+  left_join(IsolSourceMod,by="isolation_source") %>%
+  select(acc,id,isolation_source,Classification,everything())
+
+write_tsv(silvaTaxMetadata,"silvaMetadata.tsv")
+
+```
+
+
+Manually modified
+
+```{r}
+silvaTaxMetadata <- read_tsv("silvaMetadata.tsv")
+```
+
+
+Modify the classification:
+
+```{r}
+
+silvaTaxMetadata <- silvaTaxMetadata %>%
+  separate(Classification,sep=";",
+           into=c("D",
+                  "P",
+                  "C",
+                  "O",
+                  "F",
+                  "G",
+                  "S"),
+           remove = FALSE)
+
+
+silvaTaxForTree <- silvaTaxMetadata %>% 
+  select(acc,id,ISOL,P,O,G) %>%
+  separate(id,into=c("A","B"),sep = "\\.") %>%
+  unite("TreeName",A:B,sep=".") %>%
+  dplyr::rename("genome"=acc) %>%
+  dplyr::rename("Phylum"=P) %>%
+  dplyr::rename("Order"=O) %>%
+  dplyr::rename("Genus"=G) %>%
+  select(TreeName,everything()) %>%
+  mutate()
+
+```
+
+Load SMGA metadata:
+
+```{r}
+load("GenoMetadata.RData")
+```
+
+#Extract the genomes and correlate with the new name:
+
+```{r}
+
+OldNewNanme <- read_tsv("GenomeIDNewNamesTab.txt",
+                        col_names = c("Genome","genome"))
+
+
+SMGA16S <- read_tsv("SMGA.16S.firshit.plus.headers.mod.tsv",
+                    col_names = c("header","TreeName"))
+
+
+SMGA16S <- SMGA16S %>%
+  mutate(genome=if_else(grepl("^Latilac",TreeName),
+                        str_remove(TreeName,"_NZ..*"),
+         TreeName))
+
+SMGA16S <- SMGA16S %>%
+  left_join(OldNewNanme,by="genome")
+
+```
+
+Join Taxonomy
+
+```{r}
+
+SMGA16STaxo <- SMGA16S %>%
+  left_join(GenoMetadata,by="Genome")
+
+```
+
+Modify For Tree 
+
+```{r}
+
+SMGA16STaxoForTree <- SMGA16STaxo %>%
+  mutate(TreeName=str_replace(TreeName,":","_")) %>%
+  mutate(ISOL="SMGA") %>%
+  dplyr::select(TreeName,genome,ISOL,Phylum,Order,Genus)
+
+
+
+```
+
+
+Join SMGA and Silva Information
+
+```{r}
+
+TreeAnnotation <- SMGA16STaxoForTree %>%
+  bind_rows(silvaTaxForTree) %>%
+  dplyr::rename("IsolationSource"=ISOL)
+
+```
+
+save this data
+
+```{r}
+saveRDS(TreeAnnotation,file="TreeAnnotation.RDS")
+```
+
+
+```{r}
+tree <- treeio::read.iqtree("SMGA.silva.16S.blasthits.merged.fasta.aln-gb.treefile")
+
+TotedTree <- root(tree,"AE017126.353331")
+
+
+GG <- ggtree(TotedTree,layout = "fan") +
+  geom_treescale()
+
+GGT <- GG %<+% TreeAnnotation +
+  geom_nodepoint(aes(subset = UFboot > 70),
+                 color="Gray",
+                 show.legend=F,
+                 size=0.8)
+
+GGT
+
+```
+
+Color for the genus
+
+```{r}
+colorheat <- alphabet.colors(length(unique(TreeAnnotation$Genus)))
+heatmap.colors <- as.character(colorheat)
+names(heatmap.colors) <- sort(unique(TreeAnnotation$Genus))
+ColorSymbol <- RColorBrewer::brewer.pal()
+```
+
+Plotting the tree:
+
+```{r}
+
+GGT16S <- GGT +
+  geom_tiplab2(aes(label=genome),
+               size=2,
+               offset=0.072,
+               align=TRUE,
+               hjust = 0,
+               linetype=NA)+
+  ggnewscale::new_scale_colour() +
+  ggnewscale::new_scale_fill()+
+  geom_fruit(geom=geom_star,
+             offset=0.05,
+             mapping = aes(y=IsolationSource, 
+                           fill=IsolationSource,
+                           starshape=IsolationSource),
+             size=2)+
+  scale_fill_manual(values=RColorBrewer::brewer.pal(4,"Dark2") %>% append("black"))+
+  scale_color_manual(values=RColorBrewer::brewer.pal(4,"Dark2") %>% append("black"),
+                     rgb(0,0,0,alpha = 0),
+                     guide = "none")+
+  ggnewscale::new_scale_fill()+
+  ggnewscale::new_scale_colour()+
+  geom_fruit(
+    geom=geom_tile,
+    mapping=aes(fill=Genus),
+    width=0.02,
+    color="white",
+    offset=0.07)+
+  scale_fill_manual(breaks =as.factor(na.omit(unique(GGT$data$Genus))),
+                    values = heatmap.colors,
+                    name="Taxonomy_Genus")
+```
+
+Saving
+
+```{r}
+ggsave(GGT16S,file="GGT16S.pdf",
+       width = 14,
+       height = 14)
+```
+
